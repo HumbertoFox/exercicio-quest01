@@ -67,6 +67,7 @@ body {
     border-radius: 30px;
     background-color: #FFF;
     color: hsl(257, 40%, 49%);
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
 }
 
 .informaction a:hover {
