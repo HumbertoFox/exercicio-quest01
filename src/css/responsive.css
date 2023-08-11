@@ -1,4 +1,4 @@
-@media (max-width: 1440px) {
+@media (max-width: 1200px) {
     .imagefull {
         background: url(../images/bg-mobile.svg) center no-repeat;
         background-size: cover;
@@ -9,18 +9,19 @@
  
     .global {
         display: flex;
-        flex-direction: column;
         width: 375px;
+        height: 100vh;
+        flex-direction: column;
         justify-content: center;
         color: #FFF;
-        padding: 0;
+        padding: 35px;
+        margin: 0;
     }
     
     .logo {
         display: flex;
-        width: 150px;
-        padding: 0 0 70px 35px;
-
+        width: 120px;
+        margin-bottom: 60px;
     }
     
     .presentation {
@@ -28,6 +29,8 @@
         display: flex;
         align-items: center;
         padding: 0;
+        margin: 0 0 65px 0;
+        gap: 60px;
     }
     
     .image {
@@ -44,18 +47,17 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        margin: 0;
     }
     
     .informaction h1 {
         font-size: 24px;
         font-weight: 600;
-        margin: 60px 30px 10px 30px;
     }
     
     .informaction p {
         font-weight: 400;
         font-size: 16px;
-        margin: 10px 35px 30px 35px;
     }
     
     .informaction a {
@@ -67,7 +69,6 @@
         height: 40px;
         border-radius: 30px;
         background-color: #FFF;
-        margin: 0 0 60px 0;
     }
     
     .informaction a:hover {
