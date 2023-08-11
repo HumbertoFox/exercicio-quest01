@@ -9,14 +9,15 @@
 
 ## Layout do projeto em tela de Mobile/Smartphone/Tablet.
 
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/1e0e31f1-7449-43f3-99b4-b2a643faba6f" width="250px"/>
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/d19a6987-8410-4515-bc4f-e51c34052073" width="250px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/219baf81-a553-438b-88b1-a02fb3b66161" width="250px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/99a746ea-614b-49a3-bd05-cc5998d52cd6" width="250px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/ec77f9bb-0cb3-42e8-8d42-d25c7ad805c6" width="250px"/>
 
 ## Layout do projeto responsivo em tela de desktop/Notebook
 
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/3e570d49-373c-454b-8ff5-7c9436046c76" width="500px"/>
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/a94b9587-b4bf-4bf2-9248-ab28148c2210" width="500px"/>
-
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/a8c0a49f-ff30-4919-b29e-eb7325d895f3" width="500px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/a4a3985d-c083-48f3-8443-fd706c43239a" width="500px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/0d62be63-516c-43e0-b40a-c94703773fb9" width="500px"/>
 
 ## Desenvolvido em:
 <div>
