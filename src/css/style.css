@@ -1,11 +1,13 @@
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: hsl(257, 40%, 49%);
 }
 
 .imagefull {
     display: flex;
     background: url(../images/bg-desktop.svg) center no-repeat;
-    background-size: cover;
     justify-content: center;
     align-items: center;
 }
@@ -76,9 +78,12 @@ body {
 }
 
 .icons {
-    display: flex;
     align-self: flex-end;
-    gap: 18px;
+}
+
+.icons ul {
+    display: flex;
+    gap: 15px;
 }
 
 .icons a {
