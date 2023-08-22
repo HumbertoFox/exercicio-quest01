@@ -7,12 +7,10 @@
  
     .global {
         display: flex;
-
         flex-direction: column;
         justify-content: center;
         color: #FFF;
         padding: 35px;
-        margin: 0 auto;
     }
     
     .logo {
