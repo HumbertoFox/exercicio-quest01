@@ -1,18 +1,18 @@
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .imagefull {
         background: url(../images/bg-mobile.svg) no-repeat;
-        justify-content: center;
+        width: 375px;
+        height: 100%;
     }
  
     .global {
         display: flex;
-        width: 375px;
-        height: 100vh;
+
         flex-direction: column;
         justify-content: center;
         color: #FFF;
         padding: 35px;
-        margin: 0;
+        margin: 0 auto;
     }
     
     .logo {
@@ -25,7 +25,6 @@
         flex-direction: column;
         display: flex;
         align-items: center;
-        padding: 0;
         margin: 0 0 65px 0;
         gap: 60px;
     }

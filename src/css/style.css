@@ -8,6 +8,8 @@ body {
 .imagefull {
     display: flex;
     background: url(../images/bg-desktop.svg) center no-repeat;
+    width: 1440px;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -15,8 +17,6 @@ body {
 .global {
     display: flex;
     flex-direction: column;
-    width: 1440px;
-    height: 100vh;
     justify-content: center;
     color: #FFF;
     padding: 0 78px;
