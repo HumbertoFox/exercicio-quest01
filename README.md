@@ -9,9 +9,9 @@
 
 ## Layout do projeto em tela de Mobile/Smartphone/Tablet.
 
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/219baf81-a553-438b-88b1-a02fb3b66161" width="250px"/>
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/99a746ea-614b-49a3-bd05-cc5998d52cd6" width="250px"/>
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/ec77f9bb-0cb3-42e8-8d42-d25c7ad805c6" width="250px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/c06557a1-8f5f-4767-9819-7ed53ff626ab" width="250px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/1f409e32-0f78-413b-9c58-9ef27af61d44" width="250px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/42936e13-9908-4560-9f68-0d60fd12e8ce" width="250px"/>
 
 ## Layout do projeto responsivo em tela de desktop/Notebook
 
