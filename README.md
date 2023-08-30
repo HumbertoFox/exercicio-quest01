@@ -4,8 +4,8 @@
 ## <a href="https://devemdobro.com" target="_blank"><img src="https://github.com/HumbertoFox/repository/assets/126817628/1803ecea-17e3-4e3f-9022-3c919f72a5fc" width="150px" target="_blank"/></a>
 
 ## Sobre o projeto
-<p>O projeto foi desenvolvido em HTML e CSS, como exercício dos conteúdos ministrados em aula. neste projeto só usei FLEX, não optei por usar o GRID pois queria testar meus conhecimentos em FLEX 
-  para finalizar o mesmo, sei que terei mais exercícios para aplicar meus conhecimentos em GRID, tenho um caminho a percorrer e assim seguimos firme!</p>
+<p>O projeto foi desenvolvido em HTML e CSS, como exercício dos conteúdos ministrados em aula. neste projeto usei FLEX, não optei por usar o GRID pois queria testar meus conhecimentos em FLEX 
+  para finalizar o mesmo com responsividade, sei que terei mais exercícios para aplicar meus conhecimentos em GRID, tenho um caminho a percorrer e assim seguimos firme!</p>
 
 ## Layout do projeto em tela de Mobile/Smartphone/Tablet.
 
