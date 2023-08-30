@@ -16,8 +16,8 @@
 ## Layout do projeto responsivo em tela de desktop/Notebook
 
 <img src="https://github.com/HumbertoFox/repository/assets/126817628/a8c0a49f-ff30-4919-b29e-eb7325d895f3" width="500px"/>
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/a4a3985d-c083-48f3-8443-fd706c43239a" width="500px"/>
 <img src="https://github.com/HumbertoFox/repository/assets/126817628/0d62be63-516c-43e0-b40a-c94703773fb9" width="500px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/a4a3985d-c083-48f3-8443-fd706c43239a" width="500px"/>
 
 ## Desenvolvido em:
 <div>
