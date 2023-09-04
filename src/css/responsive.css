@@ -3,85 +3,56 @@
         background: url(../images/bg-mobile.svg) no-repeat;
         width: 375px;
         height: 100%;
+        align-items: start;
     }
      .global {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: #FFF;
         padding: 35px;
     }
      .logo {
-        display: flex;
-        width: 120px;
+        width: 130px;
         margin-bottom: 60px;
     }
      .presentation {
         flex-direction: column;
-        display: flex;
         align-items: center;
         margin: 0 0 65px 0;
         gap: 60px;
     }
      .image {
-        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         max-width: 300px;
     }
      .informaction {
-        display: flex;
-        flex-direction: column;
         text-align: center;
         justify-content: center;
         align-items: center;
         margin: 0;
     }
-     .informaction h1 {
+     .informaction span {
         font-size: 24px;
         font-weight: 600;
     }
      .informaction p {
-        font-weight: 400;
         font-size: 16px;
     }
      .informaction a {
-        display: flex;
-        font-weight: 400;
-        color: hsl(257, 40%, 49%);
         font-size: 12px;
-        width: 200px;
         height: 40px;
-        border-radius: 30px;
-        background-color: #FFF;
-    }
-     .informaction a:hover {
-        color: #FFF;
-        background-color: hsl(300, 69%, 71%);
     }
      .icons {
         display: flex;
-        gap: 10px;
-        align-self: center;
         width: 100%;
         justify-content: center;
-        text-align: center;
-        align-items: center;
+    }
+    .icons ul{
+        gap: 8px;
     }
      .icons a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
         width: 29px;
         height: 29px;
-        border: 1px solid;
-        border-radius: 30px;
         font-size: 15px;
-        color: #ffffff;
-        margin: 0;
-        padding: 0;
     }
      .icons a:hover {
         color: hsl(300, 69%, 71%);

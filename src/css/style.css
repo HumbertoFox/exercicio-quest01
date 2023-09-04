@@ -38,7 +38,7 @@ body {
     gap: 25px;
     margin-top: 45px;
 }
-.informaction h1 {
+.informaction span {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -83,7 +83,7 @@ body {
     border: 1px solid;
     border-radius: 30px;
     font-size: 18px;
-    color: #ffffff;
+    color: #FFF;
     text-decoration: none;
 }
 .icons a:hover {
