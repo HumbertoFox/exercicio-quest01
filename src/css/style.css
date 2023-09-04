@@ -1,19 +1,17 @@
 body {
     display: flex;
+    flex-direction: column;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: hsl(257, 40%, 49%);
 }
-
 .imagefull {
     display: flex;
-    background: url(../images/bg-desktop.svg) center no-repeat;
+    background: url(../images/bg-desktop.svg)no-repeat;
     width: 1440px;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+    height: 800px;
 }
-
 .global {
     display: flex;
     flex-direction: column;
@@ -21,22 +19,18 @@ body {
     color: #FFF;
     padding: 0 78px;
 }
-
 .logo {
     display: flex;
     width: 210px;
 }
-
 .presentation {
     display: flex;
     gap: 54px;
     margin: 85px 0 20px 0;
 }
-
 .image {
     display: flex;
 }
-
 .informaction {
     display: flex;
     flex-direction: column;
@@ -44,19 +38,16 @@ body {
     gap: 25px;
     margin-top: 45px;
 }
-
 .informaction h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 600;
 }
-
 .informaction p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
-
 .informaction a {
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -70,22 +61,19 @@ body {
     background-color: #FFF;
     color: hsl(257, 40%, 49%);
     box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
 }
-
 .informaction a:hover {
     color: #FFF;
     background-color: hsl(300, 69%, 71%);
 }
-
 .icons {
     align-self: flex-end;
 }
-
 .icons ul {
     display: flex;
     gap: 15px;
 }
-
 .icons a {
     display: flex;
     align-items: center;
@@ -96,8 +84,15 @@ body {
     border-radius: 30px;
     font-size: 18px;
     color: #ffffff;
+    text-decoration: none;
 }
-
 .icons a:hover {
     color: hsl(300, 69%, 71%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }

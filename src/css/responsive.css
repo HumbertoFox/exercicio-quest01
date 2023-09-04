@@ -4,38 +4,33 @@
         width: 375px;
         height: 100%;
     }
- 
-    .global {
+     .global {
         display: flex;
         flex-direction: column;
         justify-content: center;
         color: #FFF;
         padding: 35px;
     }
-    
-    .logo {
+     .logo {
         display: flex;
         width: 120px;
         margin-bottom: 60px;
     }
-    
-    .presentation {
+     .presentation {
         flex-direction: column;
         display: flex;
         align-items: center;
         margin: 0 0 65px 0;
         gap: 60px;
     }
-    
-    .image {
+     .image {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         max-width: 300px;
     }
-    
-    .informaction {
+     .informaction {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -43,18 +38,15 @@
         align-items: center;
         margin: 0;
     }
-    
-    .informaction h1 {
+     .informaction h1 {
         font-size: 24px;
         font-weight: 600;
     }
-    
-    .informaction p {
+     .informaction p {
         font-weight: 400;
         font-size: 16px;
     }
-    
-    .informaction a {
+     .informaction a {
         display: flex;
         font-weight: 400;
         color: hsl(257, 40%, 49%);
@@ -64,13 +56,11 @@
         border-radius: 30px;
         background-color: #FFF;
     }
-    
-    .informaction a:hover {
+     .informaction a:hover {
         color: #FFF;
         background-color: hsl(300, 69%, 71%);
     }
-    
-    .icons {
+     .icons {
         display: flex;
         gap: 10px;
         align-self: center;
@@ -79,8 +69,7 @@
         text-align: center;
         align-items: center;
     }
-    
-    .icons a {
+     .icons a {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -94,8 +83,10 @@
         margin: 0;
         padding: 0;
     }
-    
-    .icons a:hover {
+     .icons a:hover {
         color: hsl(300, 69%, 71%);
-    }  
+    }
+    .attribution {
+        margin-top: 30px;
+    }
 }
