@@ -58,10 +58,12 @@ body {
     width: 200px;
     height: 60px;
     border-radius: 30px;
+    cursor: url(../images/pointer.svg), auto;
     background-color: #FFF;
     color: hsl(257, 40%, 49%);
     box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
     text-decoration: none;
+    transition: .3s ease-in-out;
 }
 .informaction a:hover {
     color: #FFF;
@@ -83,8 +85,10 @@ body {
     border: 1px solid;
     border-radius: 30px;
     font-size: 18px;
+    cursor: url(../images/pointer.svg), auto;
     color: #FFF;
     text-decoration: none;
+    transition: .3s ease-in-out;
 }
 .icons a:hover {
     color: hsl(300, 69%, 71%);
