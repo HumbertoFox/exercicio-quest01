@@ -27,15 +27,15 @@ Esta é uma solução para o [Huddle landing page with single introductory secti
 
 ## Layout do projeto em tela de Mobile/Smartphone.
 
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/c06557a1-8f5f-4767-9819-7ed53ff626ab" width="250px"/>
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/1f409e32-0f78-413b-9c58-9ef27af61d44" width="250px"/>
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/42936e13-9908-4560-9f68-0d60fd12e8ce" width="250px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/442e8880-dd66-4e53-9f83-47ebe740c8d2" width="250px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/a5122d66-dd46-46e3-881f-1ba0a99ed015" width="250px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/0d068868-baf7-489c-a5c1-9132c418605a" width="250px"/>
 
 ## Layout do projeto responsivo em tela de desktop/Notebook/Tablet.
 
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/a8c0a49f-ff30-4919-b29e-eb7325d895f3" width="500px"/>
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/0d62be63-516c-43e0-b40a-c94703773fb9" width="500px"/>
-<img src="https://github.com/HumbertoFox/repository/assets/126817628/a4a3985d-c083-48f3-8443-fd706c43239a" width="500px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/f70fd8a7-ee7f-4001-876d-de8bb896703d" width="500px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/d82490fe-f8f8-4b67-9eee-872296688e2c" width="500px"/>
+<img src="https://github.com/HumbertoFox/repository/assets/126817628/614496a0-6f23-46fd-be76-3f9a6ab66c1a" width="500px"/>
 
 ### Construído com
 - Marcação semântica HTML5
