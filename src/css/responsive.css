@@ -3,61 +3,47 @@
         background: url(../images/bg-mobile.svg) no-repeat;
         width: 375px;
         height: 100%;
-        align-items: start;
+        padding: 0 36px;
     }
-     .global {
-        padding: 35px;
-    }
-     .logo {
+    .logo {
         width: 130px;
-        margin-bottom: 60px;
+        margin: 0 0 60px 0;
     }
-     .presentation {
+    .presentation {
         flex-direction: column;
         align-items: center;
-        margin: 0 0 65px 0;
         gap: 60px;
+        margin: 0 0 65px 0;
     }
-     .image {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        max-width: 300px;
-    }
-     .informaction {
+    .informaction {
         text-align: center;
         justify-content: center;
         align-items: center;
         margin: 0;
     }
-     .informaction h1 {
+    .informaction h1 {
         font-size: 24px;
         font-weight: 600;
     }
-     .informaction p {
-        font-size: 16px;
+    .informaction p {
+        font-size: 15px;
+        letter-spacing: .5px;
+        line-height: 24px;
+        margin-top: 14px;
     }
-     .informaction a {
+    .informaction a {
         font-size: 12px;
         height: 40px;
     }
-     .icons {
-        display: flex;
-        width: 100%;
+    .icons {
         justify-content: center;
-    }
-    .icons ul{
         gap: 8px;
+        margin-bottom: 30px;
+        margin: 0 0 30px 0;
     }
-     .icons a {
+    .icons a {
         width: 29px;
         height: 29px;
-        font-size: 15px;
-    }
-     .icons a:hover {
-        color: hsl(300, 69%, 71%);
-    }
-    .attribution {
-        margin-top: 30px;
+        font-size: 13px;
     }
 }

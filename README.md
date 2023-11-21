@@ -4,25 +4,23 @@ Esta é uma solução para o [Huddle landing page with single introductory secti
 ### O que aprendi
 
 ```html
-  <nav>
-    <ul>
+  <ul class="icons">
       <li>
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
+          <a href="#" aria-label="Icone para levar a rece social do Facebook">
+              <i class="fab fa-facebook-f"></i>
+          </a>
       </li>
       <li>
-        <a href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
+          <a href="#" aria-label="Icone para levar a rece social do Twitter">
+              <i class="fab fa-twitter"></i>
+          </a>
       </li>
       <li>
-        <a href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
+          <a href="#" aria-label="Icone para levar a rece social do Intagram">
+              <i class="fab fa-instagram"></i>
+          </a>
       </li>
-      </ul>
-  </nav>
+  </ul>
 ```
 
 ## Layout do projeto em tela de Mobile/Smartphone.
