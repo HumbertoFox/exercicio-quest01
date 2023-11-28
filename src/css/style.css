@@ -1,102 +1,120 @@
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: hsl(257, 40%, 49%);
 }
+
 .imagefull {
-    display: flex;
-    background: url(../images/bg-desktop.svg)no-repeat;
     width: 1440px;
     height: 800px;
+    display: flex;
+    background: url(../images/bg-desktop.svg) no-repeat;
 }
+
 .global {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     color: #FFF;
-    padding: 0 78px;
+    padding-top: 55px;
+    padding-left: 75px;
 }
+
 .logo {
-    display: flex;
-    width: 210px;
+    width: 215px;
+    margin-left: -4px;
 }
+
 .presentation {
     display: flex;
-    gap: 54px;
-    margin: 85px 0 20px 0;
+    gap: 53px;
+    margin-top: 85px;
 }
-.image {
-    display: flex;
-}
+
 .informaction {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    gap: 25px;
-    margin-top: 45px;
+    gap: 21px;
+    margin-top: 44px;
 }
+
 .informaction h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 600;
+    letter-spacing: -.34px;
+    line-height: 60px;
+    padding-right: 70px;
 }
+
 .informaction p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    letter-spacing: -.34;
+    line-height: 27px;
+    padding-right: 80px;
 }
+
 .informaction a {
+    width: 200px;
+    height: 58px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 60px;
-    border-radius: 30px;
     cursor: url(../images/pointer.svg), auto;
     background-color: #FFF;
     color: hsl(257, 40%, 49%);
+    border-radius: 30px;
     box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
-    text-decoration: none;
     transition: .3s ease-in-out;
 }
+
 .informaction a:hover {
     color: #FFF;
     background-color: hsl(300, 69%, 71%);
 }
+
 .icons {
     align-self: flex-end;
+    padding-top: 20px;
+    padding-right: 78px;
 }
+
 .icons ul {
     display: flex;
     gap: 15px;
 }
-.icons a {
+
+.icons  li a {
+    width: 41px;
+    height: 41px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 41px;
-    height: 41px;
-    border: 1px solid;
-    border-radius: 30px;
+    text-align: center;
     font-size: 18px;
-    cursor: url(../images/pointer.svg), auto;
     color: #FFF;
-    text-decoration: none;
+    cursor: url(../images/pointer.svg), auto;
+    border: 1px solid;
+    border-radius: 50%;
     transition: .3s ease-in-out;
 }
-.icons a:hover {
+
+.icons li a:hover {
     color: hsl(300, 69%, 71%);
 }
+
 .attribution {
     font-size: 11px;
     text-align: center;
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }

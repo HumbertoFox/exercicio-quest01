@@ -1,62 +1,71 @@
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+    body {
+        justify-content: flex-start;
+    }
     .imagefull {
-        background: url(../images/bg-mobile.svg) no-repeat;
+        background-image: url(../images/bg-mobile.svg);
         width: 375px;
         height: 100%;
-        align-items: start;
     }
+
      .global {
-        padding: 35px;
+        padding: 30px 36px 0 36px;
     }
+
      .logo {
         width: 130px;
         margin-bottom: 60px;
     }
+
      .presentation {
         flex-direction: column;
-        align-items: center;
-        margin: 0 0 65px 0;
+        margin-top: 0px;
         gap: 60px;
     }
-     .image {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        max-width: 300px;
-    }
+
      .informaction {
         text-align: center;
-        justify-content: center;
-        align-items: center;
+        gap: 15px;
         margin: 0;
     }
+
      .informaction h1 {
         font-size: 24px;
-        font-weight: 600;
+        padding-right: 0;
+        letter-spacing: normal;
+        line-height: normal;
     }
+
      .informaction p {
         font-size: 16px;
+        letter-spacing: normal;
+        line-height: 24px;
+        padding-right: 0px;
     }
+
      .informaction a {
         font-size: 12px;
         height: 40px;
+        align-self: center;
+        margin-top: 9px;
     }
+
      .icons {
-        display: flex;
-        width: 100%;
-        justify-content: center;
+        align-self: center;
+        padding-top: 65px;
+        padding-right: 0px;
     }
-    .icons ul{
-        gap: 8px;
+
+    .icons ul {
+        gap: 10px;
     }
-     .icons a {
-        width: 29px;
-        height: 29px;
+
+     .icons ul li a {
+        width: 28px;
+        height: 28px;
         font-size: 15px;
     }
-     .icons a:hover {
-        color: hsl(300, 69%, 71%);
-    }
+    
     .attribution {
         margin-top: 30px;
     }

@@ -1,28 +1,29 @@
 # Frontend Mentor - Huddle landing page with single introductory section solution
+
 Esta é uma solução para o [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ### O que aprendi
 
 ```html
-  <nav>
-    <ul>
+
+ <ul class="icons">
       <li>
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
+          <a href="#" aria-label="Icone para levar a rece social do Facebook">
+              <i class="fab fa-facebook-f"></i>
+          </a>
       </li>
       <li>
-        <a href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
+          <a href="#" aria-label="Icone para levar a rece social do Twitter">
+              <i class="fab fa-twitter"></i>
+          </a>
       </li>
       <li>
-        <a href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
+          <a href="#" aria-label="Icone para levar a rece social do Intagram">
+              <i class="fab fa-instagram"></i>
+          </a>
       </li>
-      </ul>
-  </nav>
+  </ul>
+
 ```
 
 ## Layout do projeto em tela de Mobile/Smartphone.
@@ -38,11 +39,13 @@ Esta é uma solução para o [Huddle landing page with single introductory secti
 <img src="https://github.com/HumbertoFox/repository/assets/126817628/614496a0-6f23-46fd-be76-3f9a6ab66c1a" width="500px"/>
 
 ### Construído com
+
 - Marcação semântica HTML5
 - Propriedades personalizadas CSS
 - Caixa flexível
 
 ## Desenvolvido em:
+
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30px"/>
