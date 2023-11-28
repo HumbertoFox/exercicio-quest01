@@ -1,62 +1,80 @@
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+    body {
+        justify-content: flex-start;
+    }
+
     .imagefull {
-        background: url(../images/bg-mobile.svg) no-repeat;
+        background-image: url(../images/bg-mobile.svg);
         width: 375px;
         height: 100%;
-        align-items: start;
     }
-     .global {
+
+    .global {
         padding: 35px;
     }
-     .logo {
+
+    .logo {
         width: 130px;
+        margin-top: 0px;
         margin-bottom: 60px;
+        margin-left: -2px;
     }
-     .presentation {
+
+    .presentation {
         flex-direction: column;
         align-items: center;
         margin: 0 0 65px 0;
         gap: 60px;
     }
-     .image {
+
+    .image {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         max-width: 300px;
     }
-     .informaction {
+
+    .informaction {
         text-align: center;
         justify-content: center;
         align-items: center;
         margin: 0;
     }
-     .informaction h1 {
+
+    .informaction h1 {
         font-size: 24px;
         font-weight: 600;
     }
-     .informaction p {
+
+    .informaction p {
         font-size: 16px;
     }
-     .informaction a {
+
+    .informaction a {
         font-size: 12px;
         height: 40px;
     }
-     .icons {
+
+    .icons {
         display: flex;
         width: 100%;
         justify-content: center;
     }
-    .icons ul{
+
+    .icons ul {
         gap: 8px;
     }
-     .icons a {
+
+    .icons a {
         width: 29px;
         height: 29px;
         font-size: 15px;
     }
-     .icons a:hover {
+
+    .icons a:hover {
         color: hsl(300, 69%, 71%);
     }
+
     .attribution {
         margin-top: 30px;
     }
