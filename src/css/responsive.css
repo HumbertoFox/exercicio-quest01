@@ -9,6 +9,7 @@
         height: 100%;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 473bd4e (update quest 01)
     }
@@ -35,12 +36,21 @@
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 =======
 >>>>>>> 473bd4e (update quest 01)
+=======
+        padding: 0 36px;
+    }
+    .logo {
+        width: 130px;
+        margin: 0 0 60px 0;
+    }
+>>>>>>> 5d6aff3 (ajustes do css e html)
     .presentation {
         flex-direction: column;
         align-items: center;
         gap: 60px;
         margin: 0 0 65px 0;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -58,6 +68,8 @@
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 =======
 >>>>>>> 473bd4e (update quest 01)
+=======
+>>>>>>> 5d6aff3 (ajustes do css e html)
     .informaction {
         text-align: center;
         justify-content: center;
@@ -66,16 +78,20 @@
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 =======
 
 >>>>>>> 473bd4e (update quest 01)
+=======
+>>>>>>> 5d6aff3 (ajustes do css e html)
     .informaction h1 {
         font-size: 24px;
         font-weight: 600;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -96,10 +112,19 @@
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 =======
 >>>>>>> 473bd4e (update quest 01)
+=======
+    .informaction p {
+        font-size: 15px;
+        letter-spacing: .5px;
+        line-height: 24px;
+        margin-top: 14px;
+    }
+>>>>>>> 5d6aff3 (ajustes do css e html)
     .informaction a {
         font-size: 12px;
         height: 40px;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -119,10 +144,15 @@
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 =======
 >>>>>>> 473bd4e (update quest 01)
+=======
+    .icons {
+        justify-content: center;
+>>>>>>> 5d6aff3 (ajustes do css e html)
         gap: 8px;
         margin-bottom: 30px;
         margin: 0 0 30px 0;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -146,5 +176,11 @@
         height: 29px;
         font-size: 13px;
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
+=======
+    .icons a {
+        width: 29px;
+        height: 29px;
+        font-size: 13px;
+>>>>>>> 5d6aff3 (ajustes do css e html)
     }
 }
