@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     color: #FFF;
     padding: 55px 73px;
+<<<<<<< HEAD
 =======
     width: 1440px;
     height: 800px;
@@ -45,17 +46,36 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 85px 0 23px 0;
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
+=======
+}
+
+.logo {
+    width: 216px;
+    margin-top: -2px;
+    margin-left: -4px;
+}
+
+.presentation {
+    display: flex;
+    gap: 53px;
+    margin: 87px 0 20px 0;
+>>>>>>> 473bd4e (update quest 01)
 }
 
 .informaction {
     display: flex;
     flex-direction: column;
 <<<<<<< HEAD
+<<<<<<< HEAD
     gap: 21px;
     margin-top: 43px;
 =======
     margin-top: 45px;
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
+=======
+    gap: 21px;
+    margin-top: 43px;
+>>>>>>> 473bd4e (update quest 01)
 }
 
 .informaction h1 {
@@ -64,10 +84,14 @@ body {
     font-weight: 600;
     letter-spacing: -.2px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-right: 50px;
 =======
     color: #FFF;
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
+=======
+    padding-right: 50px;
+>>>>>>> 473bd4e (update quest 01)
 }
 
 .informaction p {
@@ -78,15 +102,25 @@ body {
     padding-right: 20px;
 =======
     font-family: 'Open Sans', sans-serif;
+<<<<<<< HEAD
     color: #FFF;
     line-height: 27px;
     margin-top: 20px;
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
+=======
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-right: 20px;
+>>>>>>> 473bd4e (update quest 01)
 }
 
 .informaction a {
     width: 200px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 473bd4e (update quest 01)
     height: 56px;
     display: flex;
     justify-content: center;
@@ -94,6 +128,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
+<<<<<<< HEAD
 =======
     height: 57px;
     display: flex;
@@ -103,10 +138,13 @@ body {
     font-size: 18px;
     border-radius: 30px;
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
+=======
+>>>>>>> 473bd4e (update quest 01)
     cursor: url(../images/pointer.svg), auto;
     background-color: #FFF;
     color: hsl(257, 40%, 49%);
     box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
 <<<<<<< HEAD
     border-radius: 30px;
     transition: .3s ease-in-out;
@@ -115,6 +153,11 @@ body {
     transition: .3s ease-in-out;
     margin-top: 24px;
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
+=======
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+    margin-top: 2px;
+>>>>>>> 473bd4e (update quest 01)
 }
 
 .informaction a:hover {
@@ -149,12 +192,15 @@ body {
     border: 1px solid;
 <<<<<<< HEAD
     border-radius: 30px;
+<<<<<<< HEAD
 =======
     border-radius: 50%;
     font-size: 18px;
     cursor: url(../images/pointer.svg), auto;
     color: #FFF;
 >>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
+=======
+>>>>>>> 473bd4e (update quest 01)
     transition: .3s ease-in-out;
 }
 
