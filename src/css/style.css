@@ -8,6 +8,7 @@ body {
 }
 
 .imagefull {
+<<<<<<< HEAD
     display: flex;
     background: url(../images/bg-desktop.svg) no-repeat;
     width: 1440px;
@@ -19,6 +20,13 @@ body {
     flex-direction: column;
     color: #FFF;
     padding: 55px 73px;
+=======
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background: url(../images/bg-desktop.svg)no-repeat;
+>>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 }
 
 .logo {
@@ -29,35 +37,56 @@ body {
 
 .presentation {
     display: flex;
+<<<<<<< HEAD
     gap: 53px;
     margin: 87px 0 20px 0;
+=======
+    gap: 54px;
+    font-family: 'Poppins', sans-serif;
+    margin: 85px 0 23px 0;
+>>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 }
 
 .informaction {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     gap: 21px;
     margin-top: 43px;
+=======
+    margin-top: 45px;
+>>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 }
 
 .informaction h1 {
-    font-family: 'Poppins', sans-serif;
+    max-width: 450px;
     font-size: 40px;
     font-weight: 600;
     letter-spacing: -.2px;
+<<<<<<< HEAD
     padding-right: 50px;
+=======
+    color: #FFF;
+>>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 }
 
 .informaction p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    max-width: 510px;
     font-size: 18px;
+<<<<<<< HEAD
     line-height: 27px;
     padding-right: 20px;
+=======
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    line-height: 27px;
+    margin-top: 20px;
+>>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 }
 
 .informaction a {
     width: 200px;
+<<<<<<< HEAD
     height: 56px;
     display: flex;
     justify-content: center;
@@ -65,13 +94,27 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
+=======
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 30px;
+>>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
     cursor: url(../images/pointer.svg), auto;
     background-color: #FFF;
     color: hsl(257, 40%, 49%);
     box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
     border-radius: 30px;
     transition: .3s ease-in-out;
     margin-top: 2px;
+=======
+    transition: .3s ease-in-out;
+    margin-top: 24px;
+>>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
 }
 
 .informaction a:hover {
@@ -80,13 +123,18 @@ body {
 }
 
 .icons {
+<<<<<<< HEAD
     align-self: flex-end;
     margin-right: 7px;
 }
 
 .icons ul {
+=======
+>>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
     display: flex;
+    justify-content: end;
     gap: 15px;
+    margin-right: 150px;
 }
 
 .icons a {
@@ -99,7 +147,14 @@ body {
     color: #FFF;
     cursor: url(../images/pointer.svg), auto;
     border: 1px solid;
+<<<<<<< HEAD
     border-radius: 30px;
+=======
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: url(../images/pointer.svg), auto;
+    color: #FFF;
+>>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
     transition: .3s ease-in-out;
 }
 
