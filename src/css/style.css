@@ -1,267 +1,102 @@
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: hsl(257, 40%, 49%);
 }
-
 .imagefull {
-<<<<<<< HEAD
-<<<<<<< HEAD
     display: flex;
-    background: url(../images/bg-desktop.svg) no-repeat;
+    background: url(../images/bg-desktop.svg)no-repeat;
     width: 1440px;
     height: 800px;
 }
-
 .global {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: #FFF;
-    padding: 55px 73px;
-<<<<<<< HEAD
-=======
-    width: 1440px;
-    height: 800px;
-=======
-    width: 1440px;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    background: url(../images/bg-desktop.svg)no-repeat;
+    padding: 0 78px;
 }
 .logo {
->>>>>>> 5d6aff3 (ajustes do css e html)
     display: flex;
-    flex-direction: column;
-    background: url(../images/bg-desktop.svg)no-repeat;
->>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
+    width: 210px;
 }
-
-.logo {
-    width: 216px;
-    margin-top: -2px;
-    margin-left: -4px;
-}
-
 .presentation {
     display: flex;
-<<<<<<< HEAD
-    gap: 53px;
-    margin: 87px 0 20px 0;
-=======
     gap: 54px;
-    font-family: 'Poppins', sans-serif;
-    margin: 85px 0 23px 0;
-<<<<<<< HEAD
->>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
-=======
+    margin: 85px 0 20px 0;
 }
-
-.logo {
-    width: 216px;
-    margin-top: -2px;
-    margin-left: -4px;
-}
-
-.presentation {
+.image {
     display: flex;
-    gap: 53px;
-    margin: 87px 0 20px 0;
->>>>>>> 473bd4e (update quest 01)
-=======
->>>>>>> 5d6aff3 (ajustes do css e html)
 }
-
 .informaction {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    gap: 21px;
-    margin-top: 43px;
-=======
-=======
->>>>>>> 5d6aff3 (ajustes do css e html)
+    flex: 1;
+    gap: 25px;
     margin-top: 45px;
->>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
-=======
-    gap: 21px;
-    margin-top: 43px;
->>>>>>> 473bd4e (update quest 01)
 }
-
 .informaction h1 {
-    max-width: 450px;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 600;
-    letter-spacing: -.2px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    padding-right: 50px;
-=======
-    color: #FFF;
->>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
-=======
-    padding-right: 50px;
->>>>>>> 473bd4e (update quest 01)
-=======
-    color: #FFF;
->>>>>>> 5d6aff3 (ajustes do css e html)
 }
-
 .informaction p {
-    max-width: 510px;
-<<<<<<< HEAD
-    font-size: 18px;
-<<<<<<< HEAD
-    line-height: 27px;
-    padding-right: 20px;
-=======
     font-family: 'Open Sans', sans-serif;
-<<<<<<< HEAD
-    color: #FFF;
-    line-height: 27px;
-    margin-top: 20px;
->>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
-=======
     font-weight: 400;
     font-size: 18px;
-    line-height: 27px;
-    padding-right: 20px;
->>>>>>> 473bd4e (update quest 01)
-=======
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    color: #FFF;
-    line-height: 27px;
-    margin-top: 20px;
->>>>>>> 5d6aff3 (ajustes do css e html)
 }
-
 .informaction a {
-    width: 200px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 473bd4e (update quest 01)
-    height: 56px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-<<<<<<< HEAD
-=======
-    height: 57px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-=======
-    height: 57px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
->>>>>>> 5d6aff3 (ajustes do css e html)
     font-weight: 400;
     font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
     border-radius: 30px;
->>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
-=======
->>>>>>> 473bd4e (update quest 01)
     cursor: url(../images/pointer.svg), auto;
     background-color: #FFF;
     color: hsl(257, 40%, 49%);
     box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    border-radius: 30px;
+    text-decoration: none;
     transition: .3s ease-in-out;
-    margin-top: 2px;
-=======
-    transition: .3s ease-in-out;
-    margin-top: 24px;
->>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
-=======
-    border-radius: 30px;
-    transition: .3s ease-in-out;
-    margin-top: 2px;
->>>>>>> 473bd4e (update quest 01)
-=======
-    transition: .3s ease-in-out;
-    margin-top: 24px;
->>>>>>> 5d6aff3 (ajustes do css e html)
 }
-
 .informaction a:hover {
     color: #FFF;
     background-color: hsl(300, 69%, 71%);
 }
-
 .icons {
-<<<<<<< HEAD
-<<<<<<< HEAD
     align-self: flex-end;
-    margin-right: 7px;
 }
-
 .icons ul {
-=======
->>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
-=======
->>>>>>> 5d6aff3 (ajustes do css e html)
     display: flex;
-    justify-content: end;
     gap: 15px;
-    margin-right: 150px;
 }
-
 .icons a {
-    width: 41px;
-    height: 41px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    color: #FFF;
-    cursor: url(../images/pointer.svg), auto;
+    width: 41px;
+    height: 41px;
     border: 1px solid;
-<<<<<<< HEAD
-<<<<<<< HEAD
     border-radius: 30px;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5d6aff3 (ajustes do css e html)
-    border-radius: 50%;
     font-size: 18px;
     cursor: url(../images/pointer.svg), auto;
     color: #FFF;
-<<<<<<< HEAD
->>>>>>> 5d6aff37ebdc52e4193a091e35d1446404101509
-=======
->>>>>>> 473bd4e (update quest 01)
-=======
->>>>>>> 5d6aff3 (ajustes do css e html)
+    text-decoration: none;
     transition: .3s ease-in-out;
 }
-
 .icons a:hover {
     color: hsl(300, 69%, 71%);
 }
-
 .attribution {
     font-size: 11px;
     text-align: center;
 }
-
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
