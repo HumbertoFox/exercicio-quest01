@@ -11,6 +11,7 @@ body {
     width: 1440px;
     height: 800px;
     display: flex;
+    flex-direction: column;
     background: url(../images/bg-desktop.svg) no-repeat;
 }
 
@@ -80,45 +81,64 @@ body {
     background-color: hsl(300, 69%, 71%);
 }
 
-.icons {
-    align-self: flex-end;
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     padding-top: 20px;
-    padding-right: 78px;
 }
 
-.icons ul {
+footer ul {
     display: flex;
     gap: 15px;
 }
 
-.icons ul li {
+footer ul li {
     width: 41px;
     height: 41px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
     cursor: url(../images/pointer.svg), auto;
-    border: 1px solid;
+    border: 1px solid white;
     border-radius: 50%;
     transition: .3s ease-in-out;
+    padding: 10px;
 }
 
-.icons ul li a {
+footer ul li:last-child {
+    font-size: 21px;
+}
+
+footer ul li:first-child {
+    font-size: 20px;
+}
+
+footer ul li a {
+    display: flex;
     color: #FFF;
     cursor: url(../images/pointer.svg), auto;
     transition: .3s ease-in-out;
+    padding: 0;
 }
 
-.icons ul li:hover, .icons ul li:hover a {
+footer ul li:hover,
+footer ul li:hover a {
+    border-color: hsl(300, 69%, 71%);
     color: hsl(300, 69%, 71%);
 }
 
 .attribution {
+    color: #FFF;
     font-size: 11px;
     text-align: center;
 }
 
 .attribution a {
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.attribution a:hover {
     color: hsl(228, 45%, 44%);
 }
